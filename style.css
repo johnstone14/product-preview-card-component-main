@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: white;
+
+    width: 300px;
+    height: 450px;
+
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+img {
+    width: 300px;
+    height: 450px;
+
+    border-bottom-left-radius: 3%;
+    border-top-left-radius: 3%;
+}
+
+  
+.compra {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-top: 20px;
+    padding: 16px 24px;
+  
+    background: hsl(158, 36%, 37%);
+    border-radius: 8px;
+
+    color: white ;
+}
+
+main {
+    margin: 32px;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.numero {
+    display: flex;
+    align-items: center;
+}
